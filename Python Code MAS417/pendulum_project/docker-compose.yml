@@ -1,0 +1,15 @@
+# Spoolman material stock. Start:  docker compose up -d   -> http://localhost:7912
+# Pinned version (project text 5.1). Check the tag exists:
+#   https://github.com/Donkie/Spoolman/pkgs/container/spoolman
+services:
+  spoolman:
+    image: ghcr.io/donkie/spoolman:0.27.0
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: ./spoolman_data
+        target: /home/app/.local/share/spoolman
+    ports:
+      - "7912:8000"
+    environment:
+      - TZ=Europe/Oslo

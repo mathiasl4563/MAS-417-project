@@ -1,0 +1,9 @@
+[
+  {"order_id": "ex01_normal", "customer": "Ada", "target_period_s": 0.7, "spool_ids": {"base": 1, "pillar": 1, "axle": 1, "arm": 2, "weight": 2}},
+  {"order_id": "ex02_fast_solid", "customer": "Bob", "target_period_s": 0.45, "infill": 1.0, "spool_ids": {"base": 1, "pillar": 1, "axle": 1, "arm": 1, "weight": 2}},
+  {"order_id": "ex03_too_slow", "customer": "Cleo", "target_period_s": 1.2, "spool_ids": {"base": 1, "pillar": 1, "axle": 1, "arm": 1, "weight": 1}},
+  {"order_id": "ex04_length_too_short", "customer": "Dag", "pendulum_length_mm": 15, "spool_ids": {"base": 1, "pillar": 1, "axle": 1, "arm": 1, "weight": 1}},
+  {"order_id": "ex05_big_weight", "customer": "Eli", "target_period_s": 0.6, "weightDiameter": 45, "spool_ids": {"base": 1, "pillar": 2, "axle": 1, "arm": 2, "weight": 1}},
+  {"order_id": "ex06_by_length", "customer": "Frida", "pendulum_length_mm": 150, "spool_ids": {"base": 1, "pillar": 2, "axle": 1, "arm": 2, "weight": 1}},
+  {"order_id": "ex07_length_too_long", "customer": "Gro", "pendulum_length_mm": 300, "spool_ids": {"base": 1, "pillar": 1, "axle": 1, "arm": 1, "weight": 1}}
+]

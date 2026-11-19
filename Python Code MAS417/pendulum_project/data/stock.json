@@ -1,0 +1,9 @@
+{
+  "_comment": "FILL IN from the UiA makerspace (name, colour, material) and the manufacturer data sheet (density). Net weight from the spool label. Values below are PLACEHOLDERS.",
+  "filaments": [
+    {"vendor": "Bambu Lab", "name": "PLA Basic Black",  "material": "PLA",  "density": 1.26, "diameter": 1.75, "color_hex": "000000", "net_weight_g": 1000, "spool_weight_g": 250},
+    {"vendor": "Bambu Lab", "name": "PLA Basic Red",    "material": "PLA",  "density": 1.26, "diameter": 1.75, "color_hex": "C12E1F", "net_weight_g": 1000, "spool_weight_g": 250},
+    {"vendor": "Bambu Lab", "name": "PETG HF Blue",     "material": "PETG", "density": 1.25, "diameter": 1.75, "color_hex": "0A2CA5", "net_weight_g": 1000, "spool_weight_g": 250},
+    {"vendor": "Prusament", "name": "PLA Galaxy Black", "material": "PLA",  "density": 1.24, "diameter": 1.75, "color_hex": "3D3E3D", "net_weight_g": 1000, "spool_weight_g": 201}
+  ]
+}

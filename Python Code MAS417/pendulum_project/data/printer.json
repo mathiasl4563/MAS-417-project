@@ -1,0 +1,6 @@
+{
+  "_comment": "Print bed of the makerspace printer [mm]. Orders are limited to what fits.",
+  "x_mm": 256,
+  "y_mm": 256,
+  "z_mm": 256
+}

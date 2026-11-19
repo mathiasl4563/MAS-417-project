@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% set site, accent = "Pendulum kit – operator", "#9a3412" %}
+{% block nav %}<a href="/">All orders</a>{% endblock %}
+{% block body %}
+{% set o = rec.order %}
+<h1>Order {{ o.order_id }}: <span class="{{ rec.status }}">{{ rec.status }}</span></h1>
+<p>{{ o.customer }} · {% if o.target_period_s %}period {{ o.target_period_s }} s{% else %}length {{ o.pendulum_length_mm }} mm{% endif %} ·
+   weight Ø{{ o.weightDiameter }} mm · infill {{ '%.0f' % (o.infill * 100) }} % · {{ o.wall_loops }} walls</p>
+{% if rep %}
+ <p>{{ rep.reason }}</p>
+ <table>
+  {% if rep.pendelumLenght_mm %}<tr><th>Pendulum length</th><td>{{ '%.2f' % rep.pendelumLenght_mm }} mm</td></tr>{% endif %}
+  {% if rep.period_formula_s %}<tr><th>Period, formula</th><td>{{ rep.period_formula_s }} s{% if rep.error_to_target_ms is defined %} (error to target {{ rep.error_to_target_ms }} ms){% endif %}</td></tr>{% endif %}
+  {% if rep.period_simulated_s %}<tr><th>Period, MuJoCo</th><td>{{ rep.period_simulated_s }} s ({{ rep.difference_ms }} ms from formula)</td></tr>{% endif %}
+  {% if rep.frequency_hz %}<tr><th>Frequency</th><td>{{ rep.frequency_hz }} Hz</td></tr>{% endif %}
+  {% if rep.simulation %}<tr><th>Simulation</th><td>{{ rep.simulation }}</td></tr>{% endif %}
+  <tr><th>Processed</th><td>{{ rep.time }}</td></tr>
+ </table>
+ {% if rep.filament_g %}<h2>Filament [g]</h2>
+ <table><tr><th>Part</th><th>Spool</th><th>Grams</th></tr>
+ {% for p, g in rep.filament_g.items() %}<tr><td>{{ p }}</td><td>{{ o.spool_ids[p] }}</td><td>{{ g }}</td></tr>{% endfor %}</table>{% endif %}
+ {% if rep.files %}<h2>Files</h2><ul>
+  {% for f in rep.files %}<li><a href="/files/{{ o.order_id }}/{{ f }}">{{ f }}</a></li>{% endfor %}
+  <li><a href="/files/{{ o.order_id }}/params.json">params.json</a></li>
+  <li><a href="/files/{{ o.order_id }}/report.json">report.json</a></li>
+  {% if rep.period_simulated_s %}<li><a href="/files/{{ o.order_id }}/swing.png">swing.png</a></li>{% endif %}
+ </ul>{% endif %}
+{% endif %}
+{% if rec.status in ("waiting", "postponed") %}
+ <form method="post" action="/start/{{ o.order_id }}"><button>Start this order</button></form>
+{% endif %}
+{% endblock %}

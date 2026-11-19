@@ -1,0 +1,543 @@
+2026-11-19 17:52:19:INFO:Starting Spoolman v0.27.0 (commit: bed3f14) (built: 2026-09-25 13:48:24+00:00)
+2026-11-19 17:52:19:INFO:Using data directory: /home/app/.local/share/spoolman
+2026-11-19 17:52:19:INFO:Using logs directory: /home/app/.local/share/spoolman
+2026-11-19 17:52:19:INFO:Using backups directory: /home/app/.local/share/spoolman/backups
+2026-11-19 17:52:19:INFO:Setting up database...
+2026-11-19 17:52:19:INFO:No database type specified, using a default SQLite database located at "/home/app/.local/share/spoolman/spoolman.db"
+2026-11-19 17:52:19:INFO:Performing migrations...
+2026-11-19 17:52:20:INFO:Scheduling automatic database backup for midnight.
+2026-11-19 17:52:20:INFO:Scheduling external DB sync.
+2026-11-19 17:52:20:INFO:Startup complete.
+2026-11-19 17:52:20:INFO:Application startup complete.
+2026-11-19 17:52:20:INFO:Syncing external DB.
+2026-11-19 17:52:20:INFO:Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-19 17:52:20:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/filaments.json "HTTP/1.1 200 OK"
+2026-11-19 17:52:20:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/materials.json "HTTP/1.1 200 OK"
+2026-11-19 17:52:20:INFO:External DB synced. Filaments: 10058, Materials: 34
+2026-11-19 17:52:30:INFO:172.19.0.1:40646 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:52:31:INFO:172.19.0.1:40656 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 17:52:36:INFO:172.19.0.1:40662 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:52:37:INFO:172.19.0.1:52368 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:52:45:INFO:172.19.0.1:52370 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET / HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /_app/immutable/entry/start.Bz-x6oV7.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /_app/immutable/chunks/HclGiUj8.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /_app/immutable/chunks/xihTtKlq.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /_app/immutable/chunks/BXhM9wj0.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/entry/app.ZIddLDtY.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /_app/immutable/chunks/HbTTpyqS.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /_app/immutable/assets/chevron-right.CVC1o4dU.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /_app/immutable/assets/live.D71ugeDl.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/assets/NumberInput.BWj4_F-K.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /_app/immutable/assets/scanner.Dt9OGGFx.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /_app/immutable/assets/ui.CXMB3p0_.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /_app/immutable/assets/0.fO2B5Yal.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /_app/immutable/assets/2.BtEKLNCO.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /_app/immutable/chunks/DXgfU-Tb.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /_app/immutable/assets/Pagination.D8vSiEk8.css HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/nodes/0.DROuJCdw.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /_app/immutable/chunks/R23Xw2I7.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /_app/immutable/chunks/BFH5x8qy.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /_app/immutable/chunks/DwsCpdY3.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /_app/immutable/chunks/nSSnrFO8.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/chunks/KQbHvP-v.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /_app/immutable/chunks/CunNR7-7.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /_app/immutable/chunks/DjJSFejG.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /_app/immutable/chunks/DXyhbiKs.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /_app/immutable/chunks/BN02sQhE.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/chunks/CCzMHaq4.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /_app/immutable/chunks/D6O-vR7m.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /_app/immutable/chunks/otSSDUjP.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /_app/immutable/nodes/2.CWP4vcl9.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /_app/immutable/chunks/CmXy5ssr.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /_app/immutable/chunks/Dk-xzT5R.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/chunks/C2mw887P.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50100 - "GET /manifest.webmanifest HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /_app/immutable/nodes/1.D5CfOijL.js HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /favicon.svg HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50108 - "WebSocket /api/v1/spool" [accepted]
+2026-11-19 17:53:22:INFO:connection open
+2026-11-19 17:53:22:INFO:Client 172.19.0.1 is now listening on pool spool
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /spoolman.svg HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50114 - "WebSocket /api/v1/filament" [accepted]
+2026-11-19 17:53:22:INFO:connection open
+2026-11-19 17:53:22:INFO:Client 172.19.0.1 is now listening on pool filament
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50070 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /api/v1/setting/ HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /pwa-192x192.png HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:49990 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50116 - "WebSocket /api/v1/vendor" [accepted]
+2026-11-19 17:53:22:INFO:connection open
+2026-11-19 17:53:22:INFO:Client 172.19.0.1 is now listening on pool vendor
+2026-11-19 17:53:22:INFO:172.19.0.1:50060 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50062 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50092 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:22:INFO:172.19.0.1:50084 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 17:53:24:INFO:172.19.0.1:50092 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 17:53:24:INFO:172.19.0.1:50084 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:53:31:INFO:172.19.0.1:49552 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 17:53:31:INFO:172.19.0.1:49536 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:53:32:INFO:172.19.0.1:49552 - "GET /api/v1/external/filament/search?query=d&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:32:INFO:172.19.0.1:49536 - "GET /api/v1/search?q=d&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:33:INFO:172.19.0.1:49536 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:53:48:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:48:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:49:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:49:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:49:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+s&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:49:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+s&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:50:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+su&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:50:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+su&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:50:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+sun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:50:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+sun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:51:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+sun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:51:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+sun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:53:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+sun+%C3%A5l&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:53:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+sun+%C3%A5l&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:54:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+sun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:55:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+sun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:55:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+sun+pl&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:55:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+sun+pl&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:53:56:INFO:172.19.0.1:44684 - "GET /api/v1/external/filament/search?query=E+sun+pla&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:53:56:INFO:172.19.0.1:44676 - "GET /api/v1/search?q=E+sun+pla&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:06:INFO:172.19.0.1:52894 - "GET /api/v1/external/filament/search?query=E+sun+plas&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:06:INFO:172.19.0.1:52878 - "GET /api/v1/search?q=E+sun+plas&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:08:INFO:172.19.0.1:52894 - "GET /api/v1/external/filament/search?query=E+sun+pla+bla&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:08:INFO:172.19.0.1:52878 - "GET /api/v1/search?q=E+sun+pla+bla&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:09:INFO:172.19.0.1:52894 - "GET /api/v1/external/filament/search?query=E+sun+pla+black&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:09:INFO:172.19.0.1:52878 - "GET /api/v1/search?q=E+sun+pla+black&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:18:INFO:172.19.0.1:36694 - "GET /api/v1/filament?external_id=esun_pla_basicblack_1000_175_c HTTP/1.1" 200
+2026-11-19 17:54:18:INFO:172.19.0.1:36694 - "GET /api/v1/vendor?external_id=eSun HTTP/1.1" 200
+2026-11-19 17:54:18:INFO:172.19.0.1:36694 - "POST /api/v1/vendor HTTP/1.1" 200
+2026-11-19 17:54:18:INFO:172.19.0.1:36694 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:18:INFO:172.19.0.1:36702 - "POST /api/v1/filament HTTP/1.1" 200
+2026-11-19 17:54:18:INFO:172.19.0.1:36702 - "POST /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:54:19:INFO:172.19.0.1:36702 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:19:INFO:172.19.0.1:36702 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:54:25:INFO:172.19.0.1:36722 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 17:54:25:INFO:172.19.0.1:36708 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:54:27:INFO:172.19.0.1:36722 - "GET /api/v1/external/filament/search?query=esun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:27:INFO:172.19.0.1:36708 - "GET /api/v1/search?q=esun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:28:INFO:172.19.0.1:36722 - "GET /api/v1/external/filament/search?query=esun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:28:INFO:172.19.0.1:36708 - "GET /api/v1/search?q=esun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:34:INFO:172.19.0.1:48372 - "GET /api/v1/external/filament/search?query=esun+h&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:34:INFO:172.19.0.1:48362 - "GET /api/v1/search?q=esun+h&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:35:INFO:172.19.0.1:48372 - "GET /api/v1/external/filament/search?query=esun+hvit&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:35:INFO:172.19.0.1:48362 - "GET /api/v1/search?q=esun+hvit&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:37:INFO:172.19.0.1:48372 - "GET /api/v1/external/filament/search?query=esun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:37:INFO:172.19.0.1:48362 - "GET /api/v1/search?q=esun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:39:INFO:172.19.0.1:48372 - "GET /api/v1/external/filament/search?query=esun+w&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:39:INFO:172.19.0.1:48362 - "GET /api/v1/search?q=esun+w&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:40:INFO:172.19.0.1:48372 - "GET /api/v1/external/filament/search?query=esun+white&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:40:INFO:172.19.0.1:48362 - "GET /api/v1/search?q=esun+white&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:43:INFO:172.19.0.1:48372 - "GET /api/v1/external/filament/search?query=esun+white+pla&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:43:INFO:172.19.0.1:48362 - "GET /api/v1/search?q=esun+white+pla&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:48362 - "GET /api/v1/filament?external_id=esun_pla_basicbonewhite_1000_175_c HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:48362 - "GET /api/v1/vendor?external_id=eSun HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:48362 - "POST /api/v1/filament HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:48362 - "POST /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:54226 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:48372 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:54:47:INFO:172.19.0.1:48372 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:54:48:INFO:172.19.0.1:54226 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:48:INFO:172.19.0.1:48372 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:54:48:INFO:172.19.0.1:48362 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:54:48:INFO:172.19.0.1:54226 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:54:49:INFO:172.19.0.1:48362 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 17:54:49:INFO:172.19.0.1:54226 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:54:56:INFO:172.19.0.1:54238 - "GET /api/v1/external/filament/search?query=e+sun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:56:INFO:172.19.0.1:54240 - "GET /api/v1/search?q=e+sun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:57:INFO:172.19.0.1:54238 - "GET /api/v1/external/filament/search?query=e+sun+pla&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:57:INFO:172.19.0.1:54240 - "GET /api/v1/search?q=e+sun+pla&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:54:59:INFO:172.19.0.1:54238 - "GET /api/v1/external/filament/search?query=e+sun+pla+oragn&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:54:59:INFO:172.19.0.1:54240 - "GET /api/v1/search?q=e+sun+pla+oragn&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:00:INFO:172.19.0.1:54238 - "GET /api/v1/external/filament/search?query=e+sun+pla+ora&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:00:INFO:172.19.0.1:54240 - "GET /api/v1/search?q=e+sun+pla+ora&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:01:INFO:172.19.0.1:54238 - "GET /api/v1/external/filament/search?query=e+sun+pla+orang&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:01:INFO:172.19.0.1:54240 - "GET /api/v1/search?q=e+sun+pla+orang&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:02:INFO:172.19.0.1:54238 - "GET /api/v1/external/filament/search?query=e+sun+pla+orange&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:02:INFO:172.19.0.1:54240 - "GET /api/v1/search?q=e+sun+pla+orange&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:07:INFO:172.19.0.1:54240 - "GET /api/v1/external/filament/search?query=e+sun+pla+orange&limit=20&offset=20 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:54240 - "GET /api/v1/filament?external_id=esun_pla_basicorange_1000_175_c HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:54240 - "GET /api/v1/vendor?external_id=eSun HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:54240 - "POST /api/v1/filament HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50128 - "POST /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:54240 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50096 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50112 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50096 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50112 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50112 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:54240 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50096 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:54240 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50112 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:55:12:INFO:172.19.0.1:50096 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 17:55:14:INFO:172.19.0.1:50112 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 17:55:14:INFO:172.19.0.1:50096 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:55:20:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=esun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:20:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=esun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:21:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=esun+pla+gray&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:21:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=esun+pla+gray&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:23:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=esun+pla+gra&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:23:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=esun+pla+gra&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:24:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=esun+pla+g&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:24:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=esun+pla+g&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:26:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=esun&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:26:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=esun&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:27:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=esun+gray&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:27:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=esun+gray&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:30:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=g&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:30:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=g&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:30:INFO:172.19.0.1:34876 - "GET /api/v1/external/filament/search?query=gray&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:30:INFO:172.19.0.1:34868 - "GET /api/v1/search?q=gray&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:36:INFO:172.19.0.1:47416 - "GET /api/v1/external/filament/search?query=gray&limit=20&offset=20 HTTP/1.1" 200
+2026-11-19 17:55:42:INFO:172.19.0.1:48636 - "GET /api/v1/external/filament/search?query=gray+pla&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:55:42:INFO:172.19.0.1:48624 - "GET /api/v1/search?q=gray+pla&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:55:47:INFO:172.19.0.1:48624 - "GET /api/v1/external/filament/search?query=gray+pla&limit=20&offset=20 HTTP/1.1" 200
+2026-11-19 17:55:51:INFO:172.19.0.1:48624 - "GET /api/v1/external/filament/search?query=gray+pla&limit=20&offset=40 HTTP/1.1" 200
+2026-11-19 17:55:55:INFO:172.19.0.1:48624 - "GET /api/v1/external/filament/search?query=gray+pla&limit=20&offset=60 HTTP/1.1" 200
+2026-11-19 17:55:59:INFO:172.19.0.1:48624 - "GET /api/v1/external/filament/search?query=gray+pla&limit=20&offset=80 HTTP/1.1" 200
+2026-11-19 17:56:00:INFO:172.19.0.1:48624 - "GET /api/v1/external/filament/search?query=gray+pla&limit=20&offset=100 HTTP/1.1" 200
+2026-11-19 17:56:04:INFO:172.19.0.1:35098 - "GET /api/v1/external/filament/search?query=gray+be&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:56:04:INFO:172.19.0.1:48624 - "GET /api/v1/search?q=gray+be&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:56:04:INFO:172.19.0.1:35098 - "GET /api/v1/external/filament/search?query=gray+bea&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:56:04:INFO:172.19.0.1:48624 - "GET /api/v1/search?q=gray+bea&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:56:05:INFO:172.19.0.1:35098 - "GET /api/v1/external/filament/search?query=gray+b&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:56:05:INFO:172.19.0.1:48624 - "GET /api/v1/search?q=gray+b&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:56:06:INFO:172.19.0.1:35098 - "GET /api/v1/external/filament/search?query=gray+bag&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:56:06:INFO:172.19.0.1:48624 - "GET /api/v1/search?q=gray+bag&color_similarity_threshold=20&spools_per_filament=5 HTTP/1.1" 200
+2026-11-19 17:56:08:INFO:172.19.0.1:48624 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 17:56:12:INFO:172.19.0.1:44310 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:56:17:INFO:172.19.0.1:54478 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 17:56:39:INFO:172.19.0.1:57022 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 17:56:43:INFO:172.19.0.1:57026 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41026 - "PUT /api/v1/spool/1/use HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41062 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41050 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41038 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41036 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41050 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41038 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 17:56:52:INFO:172.19.0.1:41062 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 18:52:20:INFO:Syncing external DB.
+2026-11-19 18:52:20:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/filaments.json "HTTP/1.1 200 OK"
+2026-11-19 18:52:20:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/materials.json "HTTP/1.1 200 OK"
+2026-11-19 18:52:20:INFO:External DB synced. Filaments: 10058, Materials: 34
+2026-11-19 19:17:22:INFO:Client 172.19.0.1 has stopped listening on pool spool
+2026-11-19 19:17:22:INFO:Client 172.19.0.1 has stopped listening on pool vendor
+2026-11-19 19:17:22:INFO:Client 172.19.0.1 has stopped listening on pool filament
+2026-11-19 19:41:41:INFO:172.19.0.1:39208 - "WebSocket /api/v1/filament" [accepted]
+2026-11-19 19:41:41:INFO:connection open
+2026-11-19 19:41:41:INFO:Client 172.19.0.1 is now listening on pool filament
+2026-11-19 19:41:41:INFO:172.19.0.1:39224 - "WebSocket /api/v1/spool" [accepted]
+2026-11-19 19:41:41:INFO:connection open
+2026-11-19 19:41:41:INFO:Client 172.19.0.1 is now listening on pool spool
+2026-11-19 19:41:41:INFO:172.19.0.1:39234 - "WebSocket /api/v1/vendor" [accepted]
+2026-11-19 19:41:41:INFO:connection open
+2026-11-19 19:41:41:INFO:Client 172.19.0.1 is now listening on pool vendor
+2026-11-19 19:57:39:INFO:172.19.0.1:44200 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 19:57:42:INFO:172.19.0.1:40906 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 19:58:46:INFO:172.19.0.1:39452 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 19:58:51:INFO:172.19.0.1:39456 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39466 - "PUT /api/v1/spool/1/use HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39472 - "PUT /api/v1/spool/2/use HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39476 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39506 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39514 - "PUT /api/v1/spool/3/use HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39476 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:42116 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39476 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:42116 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39476 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 19:58:52:INFO:172.19.0.1:39492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 19:59:21:INFO:172.19.0.1:42782 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 19:59:24:INFO:172.19.0.1:52492 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:03:01:INFO:172.19.0.1:35588 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:03:24:INFO:172.19.0.1:51968 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:03:25:INFO:172.19.0.1:51976 - "PUT /api/v1/spool/1/use HTTP/1.1" 200
+2026-11-19 20:03:25:INFO:172.19.0.1:52020 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:03:25:INFO:172.19.0.1:51992 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:03:25:INFO:172.19.0.1:52028 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:03:25:INFO:172.19.0.1:52020 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:03:25:INFO:172.19.0.1:51992 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:03:55:INFO:172.19.0.1:50750 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:04:08:INFO:172.19.0.1:47648 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:04:19:INFO:172.19.0.1:50116 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:04:20:INFO:172.19.0.1:50122 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:04:20:INFO:172.19.0.1:50136 - "PUT /api/v1/spool/1/use HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50152 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50170 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50158 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50160 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50160 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50170 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:04:21:INFO:172.19.0.1:50158 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:05:02:INFO:172.19.0.1:50720 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:05:36:INFO:172.19.0.1:43806 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:15:30:INFO:172.19.0.1:37938 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:15:43:INFO:172.19.0.1:54212 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:15:44:INFO:172.19.0.1:54214 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50460 - "GET /api/v1/material HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50466 - "GET /api/v1/external/material HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50486 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50456 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50480 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50460 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50466 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50460 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50480 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:26:INFO:172.19.0.1:50456 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:30:INFO:172.19.0.1:50480 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 20:16:30:INFO:172.19.0.1:50456 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:50456 - "POST /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:60114 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:50456 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:60090 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:60124 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:60114 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:50456 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:33:INFO:172.19.0.1:60132 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:36:INFO:Syncing external DB.
+2026-11-19 20:16:36:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/filaments.json "HTTP/1.1 200 OK"
+2026-11-19 20:16:36:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/materials.json "HTTP/1.1 200 OK"
+2026-11-19 20:16:36:INFO:External DB synced. Filaments: 10058, Materials: 34
+2026-11-19 20:16:41:INFO:172.19.0.1:60144 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:43:INFO:172.19.0.1:40440 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:43:INFO:172.19.0.1:40450 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:44:INFO:172.19.0.1:40462 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:45:INFO:172.19.0.1:40476 - "GET /_app/immutable/assets/6.C02i6qei.css HTTP/1.1" 200
+2026-11-19 20:16:45:INFO:172.19.0.1:40468 - "GET /_app/immutable/chunks/-2O0jPm_.js HTTP/1.1" 200
+2026-11-19 20:16:45:INFO:172.19.0.1:40474 - "GET /_app/immutable/chunks/z70JCOcV.js HTTP/1.1" 200
+2026-11-19 20:16:45:INFO:172.19.0.1:40466 - "GET /_app/immutable/nodes/6.CoPv6N2P.js HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40466 - "GET /?sel=filament%3A1 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:Client 172.19.0.1 has stopped listening on pool vendor
+2026-11-19 20:16:46:INFO:Client 172.19.0.1 has stopped listening on pool spool
+2026-11-19 20:16:46:INFO:Client 172.19.0.1 has stopped listening on pool filament
+2026-11-19 20:16:46:INFO:172.19.0.1:40466 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40490 - "WebSocket /api/v1/spool" [accepted]
+2026-11-19 20:16:46:INFO:connection open
+2026-11-19 20:16:46:INFO:Client 172.19.0.1 is now listening on pool spool
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40522 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40522 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40522 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40536 - "WebSocket /api/v1/filament" [accepted]
+2026-11-19 20:16:46:INFO:connection open
+2026-11-19 20:16:46:INFO:Client 172.19.0.1 is now listening on pool filament
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40522 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40466 - "GET /api/v1/setting/ HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40466 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40506 - "GET /api/v1/filament/1 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40548 - "WebSocket /api/v1/vendor" [accepted]
+2026-11-19 20:16:46:INFO:connection open
+2026-11-19 20:16:46:INFO:Client 172.19.0.1 is now listening on pool vendor
+2026-11-19 20:16:46:INFO:172.19.0.1:40476 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40476 - "GET /api/v1/material HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40466 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40506 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40522 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40474 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:46:INFO:172.19.0.1:40468 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40468 - "GET /?sel=filament%3A1 HTTP/1.1" 304
+2026-11-19 20:16:47:INFO:Client 172.19.0.1 has stopped listening on pool filament
+2026-11-19 20:16:47:INFO:Client 172.19.0.1 has stopped listening on pool vendor
+2026-11-19 20:16:47:INFO:Client 172.19.0.1 has stopped listening on pool spool
+2026-11-19 20:16:47:INFO:172.19.0.1:40468 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40474 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40550 - "WebSocket /api/v1/spool" [accepted]
+2026-11-19 20:16:47:INFO:connection open
+2026-11-19 20:16:47:INFO:Client 172.19.0.1 is now listening on pool spool
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40474 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40474 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40474 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40474 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40554 - "WebSocket /api/v1/filament" [accepted]
+2026-11-19 20:16:47:INFO:connection open
+2026-11-19 20:16:47:INFO:Client 172.19.0.1 is now listening on pool filament
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40468 - "GET /api/v1/setting/ HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40466 - "GET /api/v1/filament/1 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40468 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40568 - "WebSocket /api/v1/vendor" [accepted]
+2026-11-19 20:16:47:INFO:connection open
+2026-11-19 20:16:47:INFO:Client 172.19.0.1 is now listening on pool vendor
+2026-11-19 20:16:47:INFO:172.19.0.1:40506 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40468 - "GET /api/v1/material HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40522 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40466 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40468 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:47:INFO:172.19.0.1:40476 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:50:INFO:172.19.0.1:40584 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:51:INFO:172.19.0.1:40596 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:16:53:INFO:172.19.0.1:56496 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 20:16:53:INFO:172.19.0.1:56492 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:53:INFO:172.19.0.1:56484 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:53:INFO:172.19.0.1:56492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:53:INFO:172.19.0.1:56496 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:53:INFO:172.19.0.1:56502 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:54:INFO:172.19.0.1:56506 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:54:INFO:172.19.0.1:56492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:54:INFO:172.19.0.1:56492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:54:INFO:172.19.0.1:56512 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:54:INFO:172.19.0.1:56506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56512 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56520 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56520 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56512 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56512 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56520 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56492 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56520 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:55:INFO:172.19.0.1:56512 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56506 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56520 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56512 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56492 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56522 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56506 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:56:INFO:172.19.0.1:56520 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:57:INFO:172.19.0.1:56530 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:16:57:INFO:172.19.0.1:56522 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:16:57:INFO:172.19.0.1:56530 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:16:57:INFO:172.19.0.1:56532 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:16:57:INFO:172.19.0.1:56540 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39720 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39750 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39748 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39734 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39756 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39748 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39720 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:05:INFO:172.19.0.1:39750 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:07:INFO:172.19.0.1:39750 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:21:INFO:172.19.0.1:60908 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 20:17:21:INFO:172.19.0.1:60906 - "GET /api/v1/filament?limit=8&sort=name%3Aasc HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:60906 - "POST /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:60906 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:47140 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:47142 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:47132 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:60908 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:47156 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:47140 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=2&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:60906 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:23:INFO:172.19.0.1:47142 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:25:INFO:172.19.0.1:47142 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=20&offset=2&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:35:INFO:172.19.0.1:37216 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:17:35:INFO:172.19.0.1:37228 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:17:35:INFO:172.19.0.1:37244 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:17:36:INFO:172.19.0.1:37246 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /?sel=filament%3A1 HTTP/1.1" 304
+2026-11-19 20:17:42:INFO:Client 172.19.0.1 has stopped listening on pool spool
+2026-11-19 20:17:42:INFO:Client 172.19.0.1 has stopped listening on pool vendor
+2026-11-19 20:17:42:INFO:Client 172.19.0.1 has stopped listening on pool filament
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37250 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37270 - "WebSocket /api/v1/spool" [accepted]
+2026-11-19 20:17:42:INFO:connection open
+2026-11-19 20:17:42:INFO:Client 172.19.0.1 is now listening on pool spool
+2026-11-19 20:17:42:INFO:172.19.0.1:37250 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37250 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/spool HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37308 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37250 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37308 - "GET /api/v1/info HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37250 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37316 - "WebSocket /api/v1/filament" [accepted]
+2026-11-19 20:17:42:INFO:connection open
+2026-11-19 20:17:42:INFO:Client 172.19.0.1 is now listening on pool filament
+2026-11-19 20:17:42:INFO:172.19.0.1:37308 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37250 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/filament HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37308 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /api/v1/setting/ HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37300 - "GET /api/v1/filament/1 HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /api/v1/field/vendor HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37332 - "WebSocket /api/v1/vendor" [accepted]
+2026-11-19 20:17:42:INFO:connection open
+2026-11-19 20:17:42:INFO:Client 172.19.0.1 is now listening on pool vendor
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /api/v1/material HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37284 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37300 - "GET /api/v1/spool?sort=last_used%3Adesc&limit=100&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37272 - "GET /api/v1/spool?filament.id=1&allow_archived=true&limit=1 HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37256 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37308 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:42:INFO:172.19.0.1:37284 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=8&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37300 - "GET /api/v1/location HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37256 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37308 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37272 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37284 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=3&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37272 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37308 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:46:INFO:172.19.0.1:37284 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=3&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:50:INFO:172.19.0.1:37284 - "DELETE /api/v1/spool/1 HTTP/1.1" 200
+2026-11-19 20:17:50:INFO:172.19.0.1:36562 - "GET /api/v1/spool/group?group_by=filament&sort=group.last_used%3Adesc&limit=20&offset=0 HTTP/1.1" 200
+2026-11-19 20:17:50:INFO:172.19.0.1:36548 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:17:50:INFO:172.19.0.1:36586 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=3&offset=0&filament.id=1 HTTP/1.1" 200
+2026-11-19 20:17:50:INFO:172.19.0.1:36562 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=3 HTTP/1.1" 200
+2026-11-19 20:17:50:INFO:172.19.0.1:36548 - "GET /api/v1/spool?sort=last_used%3Adesc%2Cid%3Aasc&limit=1&offset=0&filament.id=2 HTTP/1.1" 200
+2026-11-19 20:18:00:INFO:172.19.0.1:53480 - "GET /api/v1/spool HTTP/1.1" 200
+2026-11-19 20:18:07:INFO:172.19.0.1:52204 - "GET /api/v1/health HTTP/1.1" 200
+2026-11-19 20:52:20:INFO:Syncing external DB.
+2026-11-19 20:52:21:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/filaments.json "HTTP/1.1 200 OK"
+2026-11-19 20:52:21:INFO:HTTP Request: GET https://donkie.github.io/SpoolmanDB/materials.json "HTTP/1.1 200 OK"
+2026-11-19 20:52:22:INFO:External DB synced. Filaments: 10058, Materials: 34

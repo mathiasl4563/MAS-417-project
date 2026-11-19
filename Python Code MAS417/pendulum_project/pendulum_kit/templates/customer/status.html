@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% set site, accent = "Pendulum kit – order", "#1f6feb" %}
+{% block head %}{% if rec.status == "waiting" %}<meta http-equiv="refresh" content="5">{% endif %}{% endblock %}
+{% block nav %}<a href="/">New order</a>{% endblock %}
+{% block body %}
+{% set o = rec.order %}
+<h1>Your order {{ o.order_id }}</h1>
+<p>Status: <b class="{{ rec.status }}">{{ rec.status }}</b></p>
+{% if rec.status == "waiting" %}
+ <p>Your order is in the queue and will be produced soon. This page updates by itself.</p>
+{% elif rep %}
+ {% if rec.status == "produced" %}<p>Your kit is ready to print.</p>{% else %}<p>{{ rep.reason }}</p>{% endif %}
+ <table>
+  {% if o.target_period_s %}<tr><th>Period you asked for</th><td>{{ o.target_period_s }} s</td></tr>
+  {% else %}<tr><th>Length you asked for</th><td>{{ o.pendulum_length_mm }} mm</td></tr>{% endif %}
+  {% if rep.period_simulated_s or rep.period_formula_s %}
+  <tr><th>Period of your kit</th><td>{{ rep.period_simulated_s or rep.period_formula_s }} s</td></tr>{% endif %}
+  {% if rep.frequency_hz %}<tr><th>Frequency</th><td>{{ rep.frequency_hz }} Hz</td></tr>{% endif %}
+  {% if rep.pendelumLenght_mm and rec.status == "produced" and o.target_period_s %}
+  <tr><th>Pendulum length</th><td>{{ '%.1f' % rep.pendelumLenght_mm }} mm</td></tr>{% endif %}
+ </table>
+{% endif %}
+{% endblock %}

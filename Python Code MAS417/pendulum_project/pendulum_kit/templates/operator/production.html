@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% set site, accent = "Pendulum kit – operator", "#9a3412" %}
+{% block body %}
+<h1>Production</h1>
+<p>Spoolman: {% if alive %}<b class="produced">online</b>{% else %}<b class="rejected">not answering</b>{% endif %} ·
+ Print bed: <b>{{ '%.0f' % printer.x_mm }} × {{ '%.0f' % printer.y_mm }} × {{ '%.0f' % printer.z_mm }} mm</b>
+ <small>(change in data/printer.json)</small></p>
+<p>Pick an order and press <b>Start</b> to produce it.</p>
+<table><tr><th>Order</th><th>Customer</th><th>Ordered</th><th>Status</th><th></th></tr>
+{% for r in orders %}
+<tr><td><a href="/orders/{{ r.order.order_id }}">{{ r.order.order_id }}</a></td><td>{{ r.order.customer }}</td>
+<td>{% if r.order.target_period_s %}{{ r.order.target_period_s }} s{% else %}{{ r.order.pendulum_length_mm }} mm{% endif %}</td><td class="{{ r.status }}">{{ r.status }}</td>
+<td>{% if r.status in ("waiting", "postponed") %}
+ <form method="post" action="/start/{{ r.order.order_id }}" class="inline"><button>Start</button></form>{% endif %}</td></tr>
+{% else %}
+<tr><td colspan="5">No orders yet.</td></tr>
+{% endfor %}</table>
+{% endblock %}
