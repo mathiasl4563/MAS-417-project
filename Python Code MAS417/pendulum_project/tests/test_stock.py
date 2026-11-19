@@ -1,3 +1,4 @@
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 from pendulum_kit.stock import Spool, StockClient, check_stock
 
 

@@ -1,5 +1,6 @@
 # Operator: register the makerspace filaments in data/stock.json in Spoolman (one spool each).
 # Run:  python scripts/seed_stock.py      (skips filaments that already exist)
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import json
 import sys
 from pathlib import Path

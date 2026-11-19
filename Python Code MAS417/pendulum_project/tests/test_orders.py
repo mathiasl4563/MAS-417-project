@@ -1,4 +1,5 @@
 # Whole order pipeline with a fake stock (no Docker, CadQuery or MuJoCo needed)
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import json
 
 import pytest

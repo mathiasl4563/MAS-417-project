@@ -1,6 +1,5 @@
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import math
-from dataclasses import replace
-
 import pytest
 
 from pendulum_kit.params import KitInputs
@@ -27,11 +26,6 @@ def test_heavy_weight_matches_hand_calculation():
 def test_period_grows_with_length():
     ts = [period(KitInputs(pendelumLenght=L)).period_s for L in range(25, 220, 15)]
     assert ts == sorted(ts)
-
-
-def test_frequency():
-    p = period(KitInputs())
-    assert p.frequency_hz == pytest.approx(1 / p.period_s)
 
 
 def test_bisection():

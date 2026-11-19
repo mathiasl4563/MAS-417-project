@@ -1,5 +1,6 @@
 # Operator, without the GUI: process every order in a JSON file.
 # Run:  python scripts/run_orders.py data/example_orders.json
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import sys
 from pathlib import Path
 

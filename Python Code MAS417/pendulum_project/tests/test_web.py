@@ -1,4 +1,5 @@
 # Both sites with a fake stock and temporary folders (no Docker, CadQuery or MuJoCo needed)
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import pytest
 
 import pendulum_kit.customer_app as customer

@@ -1,5 +1,6 @@
 # Compares design variants: formula vs MuJoCo, run in parallel processes.
 # Run:  python scripts/compare_variants.py      -> output/variants.csv
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import csv
 import sys
 from concurrent.futures import ProcessPoolExecutor

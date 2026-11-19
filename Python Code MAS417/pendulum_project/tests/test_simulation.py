@@ -1,4 +1,5 @@
 # Runs only where MuJoCo is installed
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import pytest
 
 mujoco = pytest.importorskip("mujoco")

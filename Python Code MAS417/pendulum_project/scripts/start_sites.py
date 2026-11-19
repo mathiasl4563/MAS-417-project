@@ -1,6 +1,7 @@
 # Starts both sites at once. Ctrl+C stops both.
 #   customer: http://localhost:5000      operator: http://localhost:5001
 # Run:  python scripts/start_sites.py
+# Use of AI: generated with AI assistance (Claude), checked by the group.
 import subprocess
 import sys
 from pathlib import Path
